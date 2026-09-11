@@ -1,0 +1,9 @@
+with open(
+    "gold_price_linear_regression.pkl",
+    "wb"
+) as file:
+
+    pickle.dump(
+        model_data,
+        file
+    )
